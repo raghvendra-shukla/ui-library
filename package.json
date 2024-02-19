@@ -1,0 +1,22 @@
+{
+  "name": "raghvendraapp",
+  "version": "0.0.0",
+  "description": "this is an ui-library project",
+  "author": "Raghvendra <rannyshukla762@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "yes",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ui-library.test.js"
+  },
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  }
+}
